@@ -1,0 +1,8 @@
+prefix=/home/rathin/Documents/Fall 2022/16782/planning_proj/install
+
+Name: kuka_motion_control
+Description: Description of kuka_motion_control
+Version: 0.0.0
+Cflags: -I${prefix}/include -I/usr/share/orocos_kdl/cmake/../../../include -I/usr/include/eigen3
+Libs: -L${prefix}/lib -lkuka_motion_control -lorocos-kdl
+Requires: roscpp rospy std_msgs kdl_parser moveit_core moveit_ros_planning

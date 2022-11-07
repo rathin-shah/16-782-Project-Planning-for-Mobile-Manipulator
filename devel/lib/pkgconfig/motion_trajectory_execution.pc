@@ -1,0 +1,8 @@
+prefix=/home/rathin/Documents/Fall 2022/16782/planning_proj/devel
+
+Name: motion_trajectory_execution
+Description: Description of motion_trajectory_execution
+Version: 0.0.0
+Cflags: -I/home/rathin/Documents/Fall 2022/16782/planning_proj/src/robot_motion_execution/motion_trajectory_execution/include
+Libs: -L${prefix}/lib -lmotion_trajectory_execution
+Requires: roscpp rospy std_msgs kuka_motion_control moveit_core moveit_ros_planning trajectory_planning planning_world_builder eband_local_planner

@@ -1,0 +1,8 @@
+prefix=/home/rathin/Documents/Fall 2022/16782/planning_proj/install
+
+Name: planning_heuristics
+Description: Description of planning_heuristics
+Version: 0.0.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib -lplanning_heuristics
+Requires: 

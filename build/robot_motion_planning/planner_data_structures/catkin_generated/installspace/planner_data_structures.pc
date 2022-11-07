@@ -1,0 +1,8 @@
+prefix=/home/rathin/Documents/Fall 2022/16782/planning_proj/install
+
+Name: planner_data_structures
+Description: Description of planner_data_structures
+Version: 0.0.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib -lplanner_data_structures
+Requires: roscpp rospy std_msgs

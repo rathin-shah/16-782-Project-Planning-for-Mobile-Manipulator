@@ -1,0 +1,8 @@
+prefix=/home/rathin/Documents/Fall 2022/16782/planning_proj/devel
+
+Name: birrt_star_algorithm
+Description: Description of birrt_star_algorithm
+Version: 0.0.0
+Cflags: -I/home/rathin/Documents/Fall 2022/16782/planning_proj/src/robot_motion_planning/birrt_star_algorithm/include
+Libs: -L${prefix}/lib -lbirrt_star_algorithm
+Requires: kuka_motion_control planning_world_builder planner_data_structures validity_checker moveit_ros_planning_interface planning_heuristics roscpp rospy std_msgs
